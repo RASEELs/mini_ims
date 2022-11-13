@@ -2,7 +2,7 @@ from django.db import models
 from datetime import datetime
 
 # Create your models here.
-class Category(models.MOdel):
+class Category(models.Model):
     category = models.CharField(max_length=200)
 
     class Meta:
@@ -30,7 +30,7 @@ class item(models.Model):
 
     class meta:
         db_table = "ims_items"
-        
+
 
 
 
